@@ -1,7 +1,4 @@
-/* body {
-  overflow-x: hidden;
-  font-family: "Montserrat", sans-serif;
-}
+/* 
 .search-field {
   border: none;
   border-radius: 50px;
@@ -25,10 +22,14 @@
   border-radius: 25px;
   margin-left: 20px;
 } */
+
+body {
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+/* stylesheet all-product id of div  */
 #all-products {
-  
   display: grid;
-  
   grid-template-columns: repeat(3, 1fr);
   border: 1px solid black;
   text-align: center;
@@ -39,8 +40,9 @@
   align-items: center;
   
 }
+/* single-product style */
 .single-product {
-  background-color: rgb(244, 210, 248);
+  background-color: rgba(123, 203, 240, 0.472);
   padding: 30px;
   margin: 10px;
   transition: 0.6s;
