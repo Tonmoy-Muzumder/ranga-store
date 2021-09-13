@@ -29,6 +29,7 @@ body {
 }
 /* stylesheet all-product id of div  */
 #all-products {
+  background-color: rgba(211, 211, 211, 0.575);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   border: 1px solid black;
@@ -57,6 +58,7 @@ body {
   height: 150px;
 }
 .cart {
+  background-color: rgba(144, 238, 144, 0.5);
   width: 350px;
   border: 1px solid green;
   padding: 10px;
